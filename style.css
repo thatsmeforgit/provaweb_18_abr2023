@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: no-repeat center/cover url("assets/turquia.jpg");
+  height: calc(100vh - 150px);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 90px;
+}
+
+header nav p {
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+.header-content {
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.header-content h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+.info {
+  background: #081591;
+  padding: 15px;
+}
+
+.info .info-card{
+  display: flex;
+  margin: auto;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info .info-title{
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.info .card {
+  width: 250px;
+  height: 520px;
+  background: #000000;
+  border-radius:24px 0;
+  margin: 30px;
+  position: relative;
+}
+
+.info .card-image {
+  
+  width: 250px;
+  height: 250px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.info .card-content {
+  padding: 0 15px;
+}
+
+.info .card-content p {
+    text-decoration: solid;
+    margin: auto;
+}
+
+.info .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.info .card-content h1 {
+  font-size: 1rem;
+}
+
+.info .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: #000000;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+.info .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #e61010;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 20px;
+}
+
+.info .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.relato {
+  padding: 15px;
+  color: black;
+  text-align: center;
+}
+
+.relato .relato-tittle {
+  
+  margin: 35px 0;
+}
+
+.contato {
+  padding: 100px;
+  color: black;
+  text-align: center;
+}
+
+
